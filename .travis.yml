@@ -1,0 +1,6 @@
+script:
+    ./test.sh
+
+notifications:
+    webhooks:
+      - http://rust-bios.herokuapp.com/
